@@ -1,0 +1,289 @@
+body{
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    background-color: black;
+    
+}
+.logo h1{
+    color: blue;
+    width: 100px;
+    padding-left: 20px;
+}
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.navigation{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: white;
+}
+button{
+    width: 200px;
+    height: 80px;
+    background-color: blue;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid;
+    margin-right: 10px;
+}
+.content h3{
+    color: white;
+    padding-left: 20px;
+}
+.text_area{
+    width: 100%;
+    height: 450px;
+    display: flex;
+}
+.text{
+    width:50%;
+    height: 400px;
+    padding-left: 20px;
+}
+.image{
+    width:50%;
+    height: 400px;
+    background-image: url(./image/WhatsApp\ Image\ 2024-08-21\ at\ 06.52.48_5aa04e92.jpg);
+}
+.text h2{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.btn{
+   cursor: pointer;
+   color: white;
+   border-radius: 8px; 
+}
+.btn1{
+    background-color: transparent;
+    border: 2px solid blue;
+    color: white;
+}
+h4{
+    color: white;
+}
+.svg{
+    display: flex;
+}
+.in{
+    width: 40px;
+    height: 40px;
+}
+.in img{
+    width: 100%;
+    height: 100%;
+}
+.section{
+    width: 100%;
+    height: 200px;
+
+    display: flex;
+}
+.one{
+    height: 200px;
+    width: 35%;
+    
+}
+
+.one1{
+    height: 200px;
+    width: 35%;
+    border-right: 2px solid blue;
+    border-left: 2px solid blue;
+}
+.section1{
+    width: 100%;
+    height: 450px;
+    display: flex;
+}
+.tion{
+    text-align: center;
+    color: white;
+}
+.words{
+    width: 50%;
+    height: 450px;
+    padding-left: 20px;
+}
+.pics{
+    width: 50%;
+    height: 400px;
+}
+.words1{
+    width: 100%;
+    height: 300px;
+    padding-left: 30px;
+}
+.pic1{
+    width: 200px;
+    height: 200px;
+}
+.pic{
+    display: flex;
+    justify-content: space-between;
+}
+.pic1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 200px;
+}
+.pic2{
+    width: 200px;
+    height: 200px;
+}
+.pic2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 200px;
+    position:relative;
+}
+.why{
+    color: white;
+    text-align: center;
+}
+.section2{
+    width: 100%;
+    height: 500px;
+    padding-top: 30px;
+
+}
+.card_holder{
+    display: flex;
+}
+.card{
+    width: 40px;
+    height: 40px;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+}
+.section3{
+      width: 100%;
+      height: 200px;
+      display: flex;
+      padding: 0;
+      margin: 0;
+}
+
+.section-card{
+    display: flex;
+    width: 100%;
+justify-content: space-between;
+padding: 30px;
+
+}
+
+img{
+    width: 300px;
+    object-fit: contain;
+
+}
+
+.section2-card{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.card1{
+    width: 400px;
+    height: 120px;
+    border:  white solid 1px;
+    border-radius: 10px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    
+}
+.card1-image{
+    width: 50px;
+    height: 50px;
+
+}
+.con{
+    color: white;
+}
+.our{
+    color: white;
+    text-align: center;
+}
+.you{
+    text-align: center;
+    font-size: 8px;
+}
+.see{
+    text-align: center;
+    font-size: 8px;
+}
+.tes{
+    color: white;
+    text-align: center;
+}
+.what{
+    color: #0bc5f9;
+    text-align: center;
+}
+.section-card4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+
+}
+.section4{
+    width: 100%;
+    height: 400px;
+
+}
+.card2{
+    width: 300px;
+    height: 120px;
+    border: blue solid 2px;
+    border-radius: 20px;
+    display: flex;
+}
+.card2 img{
+    width: 80px;
+    border-radius: 100%;
+    height: 80px;
+    padding: 5px;
+}
+.card2 h3{
+    color: white;
+}
+.card2 p{
+    color: white;
+}
+.section5{
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+}
+footer {
+    width: 100%;
+    height: 25vh;
+    background-color: rgb(77, 76, 76);
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer_info {
+    width: 90%;
+    height: 20vh;
+    border-bottom: 1px solid white;
+    color: white;
+    font-weight: normal;
+  }
